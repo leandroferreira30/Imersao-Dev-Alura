@@ -1,9 +1,19 @@
-/* Importa a fonte Chakra Petch do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* No código abaixo estou criando uma font-family */
+@font-face {
+    font-family: 'Formula1';
+    src: url('fonts/Formula1-Black.ttf') format('truetype'),
+         url('fonts/Formula1-Bold.ttf') format('truetype'),
+         url('fonts/Formula1-Regular.ttf') format('truetype'),
+         url('fonts/Formula1-Wide.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Estiliza o corpo da página */
+
 body {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    font-family: "Formula1", sans-serif; /* Define a fonte padrão */
     background-color: #DDDDDD; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
@@ -32,6 +42,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
+    font-family: "Formula1";
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
@@ -88,6 +99,7 @@ section button:hover {
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #30475E; /* Cor do texto dos links */
+    font-weight: bold;
 }
 
 /* Estiliza os links quando são passados o mouse sobre */

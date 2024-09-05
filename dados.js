@@ -2,7 +2,7 @@ let dados = [
   {
     nome: "Charles Leclerc",
     nacionalidade: "Monegásco",
-    equipe: "Ferrari",
+    equipe: "Scuderia Ferrari",
     descricao:
       "Charles Leclerc, nascido em Mônaco, é um dos pilotos mais promissores da atual geração da Fórmula 1. Conhecido por sua habilidade, velocidade e determinação, Leclerc conquistou o coração dos fãs da Ferrari ao demonstrar um talento excepcional desde sua estreia na categoria. Sua ascensão meteórica, marcada por vitórias memoráveis e duelos acirrados com os principais adversários, o posiciona como um dos favoritos para conquistar títulos mundiais nos próximos anos. Com uma paixão pela velocidade desde a infância, Leclerc carrega consigo a responsabilidade de representar uma das equipes mais icônicas da história da Fórmula 1, a Ferrari, e de continuar escrevendo um novo capítulo na história do automobilismo mundial.",
     link: "https://pt.wikipedia.org/wiki/Charles_Leclerc",
