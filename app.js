@@ -11,6 +11,8 @@ function pesquisar(){
                 
                 <p class="descricao-meta">${dado.descricao}</p>
                 <br>
+                <p class="descricao-meta"> Nacionalidade: ${dado.nacionalidade}</p>
+                <br>
                 <p class="descricao-meta"> Equipe: ${dado.equipe}</p>
                 <br>
                 <a href="${dado.link}" target="_blank">Saiba mais sobre o piloto clicando aqui!</a>

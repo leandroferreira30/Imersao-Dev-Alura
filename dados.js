@@ -34,7 +34,7 @@ let dados = [
   {
     nome: "Carlos Sainz Jr",
     nacionalidade: "Espanhola",
-    equipe: "Ferrari",
+    equipe: "Scuderia Ferrari",
     descricao:
       "Carlos Sainz Jr., filho do lendário campeão mundial de rali Carlos Sainz, é um piloto espanhol que se destaca na Fórmula 1 por sua consistência, habilidade e sangue frio. Desde sua estreia na categoria, Sainz tem impressionado pela sua capacidade de extrair o máximo de seus carros e por suas batalhas acirradas na pista. Com uma carreira sólida e em constante evolução, o espanhol se tornou um dos pilotos mais queridos e respeitados do grid, sendo um dos pilares da Scuderia Ferrari. Sua experiência, aliada ao seu talento natural, o coloca como um forte candidato a conquistar títulos mundiais nos próximos anos.",
     link: "https://pt.wikipedia.org/wiki/Carlos_Sainz",
@@ -79,4 +79,79 @@ let dados = [
       "Esteban Ocon, piloto francês com uma carreira promissora na Fórmula 1. Conhecido por sua técnica apurada e consistência, Ocon já conquistou um pódio na Fórmula 1 e demonstrou ser um piloto rápido e estratégico. Sua experiência na equipe reserva o torna um forte aliado para o desenvolvimento do carro. Com uma carreira em constante ascensão, Ocon busca conquistar títulos mundiais e consolidar seu lugar entre os grandes nomes da Fórmula 1.",
     link: "https://pt.wikipedia.org/wiki/Esteban_Ocon",
   },
+  {
+    nome: "Daniel Ricciardo",
+    nacionalidade: "Australiano",
+    equipe: "Racing Bulls",
+    descricao:
+      "Daniel Ricciardo, piloto australiano conhecido por seu estilo de pilotagem agressivo e carismático. Vencedor de diversas corridas na Fórmula 1, Ricciardo é um dos pilotos mais populares do grid. Sua experiência e velocidade o tornam um forte candidato a pódios e vitórias.",
+    link: "https://pt.wikipedia.org/wiki/Daniel_Ricciardo",
+  },
+  {
+    nome: "Yuki Tsunoda",
+    nacionalidade: "Japonês",
+    equipe: "Racing Bulls",
+    descricao:
+      "Yuki Tsunoda, jovem piloto japonês que está despontando na Fórmula 1. Conhecido por sua velocidade e agressividade, Tsunoda tem mostrado grande potencial e é considerado uma das promessas da categoria. Sua adaptação à Fórmula 1 tem sido rápida e impressionante.",
+    link: "https://pt.wikipedia.org/wiki/Yuki_Tsunoda",
+  },
+  {
+    nome: "Valtteri Bottas",
+    nacionalidade: "Finlandês",
+    equipe: "Kick Sauber",
+    descricao:
+      "Valtteri Bottas, piloto finlandês com vasta experiência na Fórmula 1. Campeão de diversas corridas, Bottas é conhecido por sua consistência e habilidade em ultrapassagens. Sua experiência e velocidade o tornam um forte aliado para o desenvolvimento do carro.",
+    link: "https://pt.wikipedia.org/wiki/Valtteri_Bottas",
+  },
+  {
+    nome: "Kevin Magnussen",
+    nacionalidade: "Dinamarquês",
+    equipe: "Haas",
+    descricao:
+      "Kevin Magnussen, piloto dinamarquês com experiência na Fórmula 1. Conhecido por sua agressividade e habilidade em ultrapassagens, Magnussen é um piloto rápido e experiente. Sua volta à Fórmula 1 tem sido marcada por resultados consistentes.",
+    link: "https://pt.wikipedia.org/wiki.Kevin_Magnussen",
+  },
+  {
+    nome: "Nico Hulkenberg",
+    nacionalidade: "Alemão",
+    equipe: "Haas",
+    descricao:
+      "Nico Hulkenberg, piloto alemão com vasta experiência na Fórmula 1. Conhecido por sua consistência e habilidade em qualificação, Hulkenberg é um piloto rápido e experiente. Sua volta à Fórmula 1 tem sido marcada por resultados consistentes.",
+    link: "https://pt.wikipedia.org/wiki/Nico_Hulkenberg",
+  },
+  {
+    nome: "Zhou Guanyu",
+    nacionalidade: "Chinês",
+    equipe: "Kick Sauber",
+    descricao: "Zhou Guanyu, o primeiro piloto chinês a competir na Fórmula 1, tem impressionado pela sua adaptação rápida à categoria. Conhecido por sua calma e consistência, Zhou busca se consolidar como um dos pilotos mais promissores do grid.",
+    link: "https://pt.wikipedia.org/wiki/Zhou_Guanyu",
+},
+{
+    nome: "Alexander Albon",
+    nacionalidade: "Tailandês",
+    equipe: "Williams",
+    descricao: "Alexander Albon, piloto tailandês com experiência em equipes de ponta, retorna à Fórmula 1 com a Williams. Conhecido por sua habilidade em ultrapassagens e ritmo de corrida, Albon busca levar a Williams a novos patamares.",
+    link: "https://pt.wikipedia.org/wiki/Alexander_Albon",
+},
+{
+    nome: "Lance Stroll",
+    nacionalidade: "Canadense",
+    equipe: "Aston Martin",
+    descricao: "Lance Stroll, filho do proprietário da Aston Martin, tem se mostrado um piloto consistente na Fórmula 1. Com experiência e desenvolvimento, Stroll busca alcançar resultados ainda mais expressivos e contribuir para o crescimento da equipe.",
+    link: "https://pt.wikipedia.org/wiki/Lance_Stroll",
+},
+{
+    nome: "Fernando Alonso",
+    nacionalidade: "Espanhol",
+    equipe: "Aston Martin",
+    descricao: "Fernando Alonso, um dos pilotos mais experientes e vitoriosos da Fórmula 1, retornou à categoria após uma breve pausa. Conhecido por sua paixão e habilidade, Alonso busca mais títulos mundiais e inspirar uma nova geração de pilotos.",
+    link: "https://pt.wikipedia.org/wiki/Fernando_Alonso",
+},
+{
+    nome: "Logan Sargeant",
+    nacionalidade: "Americano",
+    equipe: "Williams",
+    descricao: "Logan Sargeant, o primeiro piloto americano a competir na Fórmula 1 em muitos anos, é uma das grandes promessas da nova geração. Com talento e determinação, Sargeant busca se destacar na categoria e representar os Estados Unidos no mais alto nível do automobilismo.",
+    link: "https://pt.wikipedia.org/wiki/Logan_Sargeant",
+}
 ];
