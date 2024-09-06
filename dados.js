@@ -1,14 +1,16 @@
 let dados = [
   {
     nome: "CHARLES LECLERC",
+    foto: 'drivers-image/charles-lecler.png',
     nacionalidade: "Monegásco",
     equipe: "Scuderia Ferrari",
     descricao:
-      "Charles Leclerc, nascido em Mônaco, é um dos pilotos mais promissores da atual geração da Fórmula 1. Conhecido por sua habilidade, velocidade e determinação, Leclerc conquistou o coração dos fãs da Ferrari ao demonstrar um talento excepcional desde sua estreia na categoria. Sua ascensão meteórica, marcada por vitórias memoráveis e duelos acirrados com os principais adversários, o posiciona como um dos favoritos para conquistar títulos mundiais nos próximos anos. Com uma paixão pela velocidade desde a infância, Leclerc carrega consigo a responsabilidade de representar uma das equipes mais icônicas da história da Fórmula 1, a Ferrari, e de continuar escrevendo um novo capítulo na história do automobilismo mundial.",
+      "Charles Leclerc, nascido em Mônaco, é um dos pilotos mais promissores da atual geração da Fórmula 1. Conhecido por sua habilidade, velocidade e determinação, Leclerc conquistou o coração dos fãs da Ferrari ao demonstrar um talento excepcional desde sua estreia na categoria. Sua ascensão meteórica, marcada por vitórias memoráveis e duelos acirrados com os principais adversários, o posiciona como um dos favoritos para conquistar títulos mundiais nos próximos anos.",
     link: "https://pt.wikipedia.org/wiki/Charles_Leclerc",
   },
   {
     nome: "LANDO NORRIS",
+    foto: 'drivers-image/lando-norris.png',
     nacionalidade: "Britânico",
     equipe: "McLaren",
     descricao:
@@ -17,6 +19,7 @@ let dados = [
   },
   {
     nome: "LEWIS HAMILTON",
+    foto: 'drivers-image/lewis-hamilton.png',
     nacionalidade: "Britânico",
     equipe: "Mercedes",
     descricao:
@@ -25,6 +28,7 @@ let dados = [
   },
   {
     nome: "MAX VERSTAPPEN",
+    foto: 'drivers-image/max-verstappen.png',
     nacionalidade: "Holandesa",
     equipe: "Red Bull",
     descricao:
@@ -33,6 +37,7 @@ let dados = [
   },
   {
     nome: "CARLOS SAINZ JR",
+    foto: 'drivers-image/carlos-sainz.png',
     nacionalidade: "Espanhola",
     equipe: "Scuderia Ferrari",
     descricao:
@@ -41,6 +46,7 @@ let dados = [
   },
   {
     nome: "GEORGE RUSSELL",
+    foto: 'drivers-image/george-russell.png',
     nacionalidade: "Britânico",
     equipe: "Mercedes",
     descricao:
@@ -49,6 +55,7 @@ let dados = [
   },
   {
     nome: "SERGIO PÉREZ",
+    foto: 'drivers-image/sergio-perez.png',
     nacionalidade: "Mexicana",
     equipe: "Red Bull",
     descricao:
@@ -57,6 +64,7 @@ let dados = [
   },
   {
     nome: "OSCAR PIASTRI",
+    foto: 'drivers-image/oscar-piastri.png',
     nacionalidade: "Australiana",
     equipe: "McLaren",
     descricao:
@@ -65,6 +73,7 @@ let dados = [
   },
   {
     nome: "PIERRE GASLY",
+    foto: 'drivers-image/pierre-gasly.png',
     nacionalidade: "Francês",
     equipe: "Alpine",
     descricao:
@@ -73,6 +82,7 @@ let dados = [
   },
   {
     nome: "ESTEBAN OCON",
+    foto: 'drivers-image/esteban-ocon.png',
     nacionalidade: "Francês",
     equipe: "Alpine",
     descricao:
@@ -81,6 +91,7 @@ let dados = [
   },
   {
     nome: "DANIEL RICCIARDO",
+    foto: 'drivers-image/daniel-ricciardo.png',
     nacionalidade: "Australiano",
     equipe: "Racing Bulls",
     descricao:
@@ -89,6 +100,7 @@ let dados = [
   },
   {
     nome: "YUKI TSUNODA",
+    foto: 'drivers-image/yuki-tsunoda.png',
     nacionalidade: "Japonês",
     equipe: "Racing Bulls",
     descricao:
@@ -97,6 +109,7 @@ let dados = [
   },
   {
     nome: "VALTTERI BOTTAS",
+    foto: 'drivers-image/valtteri-bottas.png',
     nacionalidade: "Finlandês",
     equipe: "Kick Sauber",
     descricao:
@@ -105,6 +118,7 @@ let dados = [
   },
   {
     nome: "KEVIN MAGNUSSEN",
+    foto: 'drivers-image/kevin-magnussen.png',
     nacionalidade: "Dinamarquês",
     equipe: "Haas",
     descricao:
@@ -113,6 +127,7 @@ let dados = [
   },
   {
     nome: "NICO HULKENBERG",
+    foto: 'drivers-image/nico-hulkenberg.png',
     nacionalidade: "Alemão",
     equipe: "Haas",
     descricao:
@@ -121,6 +136,7 @@ let dados = [
   },
   {
     nome: "ZHOU GUANYU",
+    foto: 'drivers-image/zhou-guanyu.png',
     nacionalidade: "Chinês",
     equipe: "Kick Sauber",
     descricao: "Zhou Guanyu, o primeiro piloto chinês a competir na Fórmula 1, tem impressionado pela sua adaptação rápida à categoria. Conhecido por sua calma e consistência, Zhou busca se consolidar como um dos pilotos mais promissores do grid.",
@@ -128,6 +144,7 @@ let dados = [
 },
 {
     nome: "ALEXANDER ALBON",
+    foto: 'drivers-image/alex-albon.png',
     nacionalidade: "Tailandês",
     equipe: "Williams",
     descricao: "Alexander Albon, piloto tailandês com experiência em equipes de ponta, retorna à Fórmula 1 com a Williams. Conhecido por sua habilidade em ultrapassagens e ritmo de corrida, Albon busca levar a Williams a novos patamares.",
@@ -135,6 +152,7 @@ let dados = [
 },
 {
     nome: "LANCE STROLL",
+    foto: 'drivers-image/lance-stroll.png',
     nacionalidade: "Canadense",
     equipe: "Aston Martin",
     descricao: "Lance Stroll, filho do proprietário da Aston Martin, tem se mostrado um piloto consistente na Fórmula 1. Com experiência e desenvolvimento, Stroll busca alcançar resultados ainda mais expressivos e contribuir para o crescimento da equipe.",
@@ -142,6 +160,7 @@ let dados = [
 },
 {
     nome: "FERNANDO ALONSO",
+    foto: 'drivers-image/fernando-alonso.png',
     nacionalidade: "Espanhol",
     equipe: "Aston Martin",
     descricao: "Fernando Alonso, um dos pilotos mais experientes e vitoriosos da Fórmula 1, retornou à categoria após uma breve pausa. Conhecido por sua paixão e habilidade, Alonso busca mais títulos mundiais e inspirar uma nova geração de pilotos.",
@@ -149,6 +168,7 @@ let dados = [
 },
 {
     nome: "LOGAN SARGEANT",
+    foto: 'drivers-image/logan-sargeant.png',
     nacionalidade: "Americano",
     equipe: "Williams",
     descricao: "Logan Sargeant, o primeiro piloto americano a competir na Fórmula 1 em muitos anos, é uma das grandes promessas da nova geração. Com talento e determinação, Sargeant busca se destacar na categoria e representar os Estados Unidos no mais alto nível do automobilismo.",

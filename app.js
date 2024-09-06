@@ -22,7 +22,7 @@ function pesquisar(){
             resultados += ` 
                 <div class="item-resultado">
                     <h2>${dado.nome}</h2>
-                    
+                    <img src="${dado.foto}" alt="${dado.nome}">
                     <p class="descricao-meta">${dado.descricao}</p>
                     <br>
                     <p class="descricao-meta"> Nacionalidade: ${dado.nacionalidade}</p>
