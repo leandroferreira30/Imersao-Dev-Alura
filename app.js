@@ -35,10 +35,6 @@ function pesquisar(){
             
         }
 
-        if (!resultados) {
-            resultados = "<h3>Nenhum piloto foi encontrado!</h3>"
-        }
-
         section.innerHTML = resultados
     }
 }
