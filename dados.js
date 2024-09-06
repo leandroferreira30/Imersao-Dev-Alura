@@ -1,6 +1,6 @@
 let dados = [
   {
-    nome: "Charles Leclerc",
+    nome: "CHARLES LECLERC",
     nacionalidade: "Monegásco",
     equipe: "Scuderia Ferrari",
     descricao:
@@ -8,7 +8,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Charles_Leclerc",
   },
   {
-    nome: "Lando Norris",
+    nome: "LANDO NORRIS",
     nacionalidade: "Britânico",
     equipe: "McLaren",
     descricao:
@@ -16,7 +16,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Lando_Norris",
   },
   {
-    nome: "Lewis Hamilton",
+    nome: "LEWIS HAMILTON",
     nacionalidade: "Britânico",
     equipe: "Mercedes",
     descricao:
@@ -24,7 +24,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Lewis_Hamilton",
   },
   {
-    nome: "Max Verstappen",
+    nome: "MAX VERSTAPPEN",
     nacionalidade: "Holandesa",
     equipe: "Red Bull",
     descricao:
@@ -32,7 +32,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Max_Verstappen",
   },
   {
-    nome: "Carlos Sainz Jr",
+    nome: "CARLOS SAINZ JR",
     nacionalidade: "Espanhola",
     equipe: "Scuderia Ferrari",
     descricao:
@@ -40,7 +40,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Carlos_Sainz",
   },
   {
-    nome: "George Russell",
+    nome: "GEORGE RUSSELL",
     nacionalidade: "Britânico",
     equipe: "Mercedes",
     descricao:
@@ -48,7 +48,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/George_Russell",
   },
   {
-    nome: "Sergio Pérez",
+    nome: "SERGIO PÉREZ",
     nacionalidade: "Mexicana",
     equipe: "Red Bull",
     descricao:
@@ -56,7 +56,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Sergio_Pérez",
   },
   {
-    nome: "Oscar Piastri",
+    nome: "OSCAR PIASTRI",
     nacionalidade: "Australiana",
     equipe: "McLaren",
     descricao:
@@ -64,7 +64,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Oscar_Piastri",
   },
   {
-    nome: "Pierre Gasly",
+    nome: "PIERRE GASLY",
     nacionalidade: "Francês",
     equipe: "Alpine",
     descricao:
@@ -72,7 +72,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Pierre_Gasly",
   },
   {
-    nome: "Esteban Ocon",
+    nome: "ESTEBAN OCON",
     nacionalidade: "Francês",
     equipe: "Alpine",
     descricao:
@@ -80,7 +80,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Esteban_Ocon",
   },
   {
-    nome: "Daniel Ricciardo",
+    nome: "DANIEL RICCIARDO",
     nacionalidade: "Australiano",
     equipe: "Racing Bulls",
     descricao:
@@ -88,7 +88,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Daniel_Ricciardo",
   },
   {
-    nome: "Yuki Tsunoda",
+    nome: "YUKI TSUNODA",
     nacionalidade: "Japonês",
     equipe: "Racing Bulls",
     descricao:
@@ -96,7 +96,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Yuki_Tsunoda",
   },
   {
-    nome: "Valtteri Bottas",
+    nome: "VALTTERI BOTTAS",
     nacionalidade: "Finlandês",
     equipe: "Kick Sauber",
     descricao:
@@ -104,7 +104,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Valtteri_Bottas",
   },
   {
-    nome: "Kevin Magnussen",
+    nome: "KEVIN MAGNUSSEN",
     nacionalidade: "Dinamarquês",
     equipe: "Haas",
     descricao:
@@ -112,7 +112,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki.Kevin_Magnussen",
   },
   {
-    nome: "Nico Hulkenberg",
+    nome: "NICO HULKENBERG",
     nacionalidade: "Alemão",
     equipe: "Haas",
     descricao:
@@ -120,35 +120,35 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Nico_Hulkenberg",
   },
   {
-    nome: "Zhou Guanyu",
+    nome: "ZHOU GUANYU",
     nacionalidade: "Chinês",
     equipe: "Kick Sauber",
     descricao: "Zhou Guanyu, o primeiro piloto chinês a competir na Fórmula 1, tem impressionado pela sua adaptação rápida à categoria. Conhecido por sua calma e consistência, Zhou busca se consolidar como um dos pilotos mais promissores do grid.",
     link: "https://pt.wikipedia.org/wiki/Zhou_Guanyu",
 },
 {
-    nome: "Alexander Albon",
+    nome: "ALEXANDER ALBON",
     nacionalidade: "Tailandês",
     equipe: "Williams",
     descricao: "Alexander Albon, piloto tailandês com experiência em equipes de ponta, retorna à Fórmula 1 com a Williams. Conhecido por sua habilidade em ultrapassagens e ritmo de corrida, Albon busca levar a Williams a novos patamares.",
     link: "https://pt.wikipedia.org/wiki/Alexander_Albon",
 },
 {
-    nome: "Lance Stroll",
+    nome: "LANCE STROLL",
     nacionalidade: "Canadense",
     equipe: "Aston Martin",
     descricao: "Lance Stroll, filho do proprietário da Aston Martin, tem se mostrado um piloto consistente na Fórmula 1. Com experiência e desenvolvimento, Stroll busca alcançar resultados ainda mais expressivos e contribuir para o crescimento da equipe.",
     link: "https://pt.wikipedia.org/wiki/Lance_Stroll",
 },
 {
-    nome: "Fernando Alonso",
+    nome: "FERNANDO ALONSO",
     nacionalidade: "Espanhol",
     equipe: "Aston Martin",
     descricao: "Fernando Alonso, um dos pilotos mais experientes e vitoriosos da Fórmula 1, retornou à categoria após uma breve pausa. Conhecido por sua paixão e habilidade, Alonso busca mais títulos mundiais e inspirar uma nova geração de pilotos.",
     link: "https://pt.wikipedia.org/wiki/Fernando_Alonso",
 },
 {
-    nome: "Logan Sargeant",
+    nome: "LOGAN SARGEANT",
     nacionalidade: "Americano",
     equipe: "Williams",
     descricao: "Logan Sargeant, o primeiro piloto americano a competir na Fórmula 1 em muitos anos, é uma das grandes promessas da nova geração. Com talento e determinação, Sargeant busca se destacar na categoria e representar os Estados Unidos no mais alto nível do automobilismo.",

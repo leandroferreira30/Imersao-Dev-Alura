@@ -2,22 +2,43 @@
 function pesquisar(){
     let section = document.getElementById("resultados-pesquisa")
     
+    let campoPesquisa = document.getElementById("campo-pesquisa").value
+    
+    campoPesquisa = campoPesquisa.toUpperCase()
+
     let resultados = ""
+
+    let equipe = ""
+
+    if (!campoPesquisa) {
+        return
+    }
     
     for (dado of dados){
-        resultados += ` 
-            <div class="item-resultado">
-                <h2>${dado.nome}</h2>
-                
-                <p class="descricao-meta">${dado.descricao}</p>
-                <br>
-                <p class="descricao-meta"> Nacionalidade: ${dado.nacionalidade}</p>
-                <br>
-                <p class="descricao-meta"> Equipe: ${dado.equipe}</p>
-                <br>
-                <a href="${dado.link}" target="_blank">Saiba mais sobre o piloto clicando aqui!</a>
-            </div>
-        `
+
+        equipe = dado.equipe.toUpperCase()
+        
+        if(dado.nome.includes(campoPesquisa) || equipe.includes(campoPesquisa)){
+            resultados += ` 
+                <div class="item-resultado">
+                    <h2>${dado.nome}</h2>
+                    
+                    <p class="descricao-meta">${dado.descricao}</p>
+                    <br>
+                    <p class="descricao-meta"> Nacionalidade: ${dado.nacionalidade}</p>
+                    <br>
+                    <p class="descricao-meta"> Equipe: ${dado.equipe}</p>
+                    <br>
+                    <a href="${dado.link}" target="_blank">Saiba mais sobre o piloto clicando aqui!</a>
+                </div>
+            `
+            
+        }
+
+        if (!resultados) {
+            resultados = "<h3>Nenhum piloto foi encontrado!</h3>"
+        }
+
+        section.innerHTML = resultados
     }
-    section.innerHTML = resultados
 }
