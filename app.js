@@ -21,8 +21,8 @@ function pesquisar(){
         if(dado.nome.includes(campoPesquisa) || equipe.includes(campoPesquisa)){
             resultados += ` 
                 <div class="item-resultado">
-                    <h2>${dado.nome}</h2>
-                    <img src="${dado.foto}" alt="${dado.nome}">
+                    <h2 class="driver-name">${dado.nome}</h2>
+                    <img class="driver-photo" src="${dado.foto}" alt="${dado.nome}">
                     <p class="descricao-meta">${dado.descricao}</p>
                     <br>
                     <p class="descricao-meta"> Nacionalidade: ${dado.nacionalidade}</p>

@@ -32,6 +32,17 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+.driver-name{
+    text-align: center;
+}
+
+.driver-photo{
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+}
+
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -120,7 +131,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: fixed; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
