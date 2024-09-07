@@ -10,7 +10,7 @@ function pesquisar(){
 
     let equipe = ""
 
-    if (!campoPesquisa) {
+    if (!campoPesquisa || campoPesquisa == " ") {
         return
     }
     
